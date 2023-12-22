@@ -27,7 +27,7 @@ function fromPairs(arr) {
 //   "\n"
 // );
 
-// //=> { name: "Sally", age: 24 }
+// // //=> { name: "Sally", age: 24 }
 // console.log(
 //   fromPairs([['name', 'Sam'], ['age', 24], ['name', 'Sally'] ]),
 //   "\n"

@@ -11,3 +11,8 @@ function mumble(str) {
   // function mumble(str) {
   //   return str.split('').reduce((result, c, i) => result + ((i || '') && '-') + c.repeat(i + 1), '');
   // }
+
+console.log(mumble('X')); //=> 'X'O
+console.log(mumble('abc')); //=> 'a-bb-ccc'
+console.log(mumble('121')); //=> '1-22-111'
+console.log(mumble('!A 2')); //=> '!-AA-   -2222'

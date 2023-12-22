@@ -33,3 +33,8 @@ function mumble(str) {
       // turn result back into a string
     return result.join('');
   }
+
+console.log(mumble('X')); //=> 'X'O
+console.log(mumble('abc')); //=> 'a-bb-ccc'
+console.log(mumble('121')); //=> '1-22-111'
+console.log(mumble('!A 2')); //=> '!-AA-   -2222'
